@@ -7557,7 +7557,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Bibliotecas</span>
@@ -7583,7 +7583,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="O-Halmitoniano-no-espa%C3%A7o:">O Halmitoniano no espaço:<a class="anchor-link" href="#O-Halmitoniano-no-espa%C3%A7o:">¶</a></h4>
+<h4 id="O-Hamiltoniano-no-espa%C3%A7o:">O Hamiltoniano no espaço:<a class="anchor-link" href="#O-Hamiltoniano-no-espa%C3%A7o:">¶</a></h4>
 </div>
 </div>
 </div>
@@ -7614,7 +7614,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">hbar</span> <span class="o">=</span> <span class="mi">1</span>
@@ -7645,7 +7645,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">n</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">N</span><span class="p">)</span>
@@ -7689,7 +7689,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">V</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">N</span><span class="p">)</span>
@@ -7717,7 +7717,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">Mdd</span> <span class="o">=</span> <span class="mf">1.</span><span class="o">/</span><span class="p">(</span><span class="n">Delta_x</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">N</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> 
@@ -7749,7 +7749,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">dt_max</span> <span class="o">=</span> <span class="mi">2</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">En</span><span class="p">)</span>      <span class="c1"># Critério de estabilidade.</span>
@@ -7777,7 +7777,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">g_x0</span><span class="o">=-</span><span class="mf">10.</span>
@@ -7804,7 +7804,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">psi0</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">g_x0</span><span class="p">,</span><span class="n">g_k0</span><span class="p">,</span><span class="n">g_sig</span><span class="p">):</span>
@@ -7823,7 +7823,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># H é Hermitiano?</span>
@@ -7851,7 +7851,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">Ut_mat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">N</span><span class="p">,</span><span class="n">dtype</span><span class="o">=</span><span class="s2">"complex128"</span><span class="p">),</span><span class="mi">0</span><span class="p">)</span>
@@ -7883,7 +7883,7 @@ $$\Psi(x,t+\Delta t)=e^{\frac{-i\text{ op }H\Delta t}{\hbar}}\cdot\Psi(x,t)$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">p</span> <span class="o">=</span> <span class="n">Ut_mat</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">psi_t0</span><span class="p">)</span>
@@ -7925,7 +7925,7 @@ Nº de etapas em que a norma está errada por um fator 2 :  78238637.96537858
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">psi_t0</span> <span class="o">=</span> <span class="n">psi0</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">g_x0</span><span class="p">,</span><span class="n">g_k0</span><span class="p">,</span><span class="n">g_sig</span><span class="p">)</span>
@@ -7958,7 +7958,7 @@ Nº de etapas em que a norma está errada por um fator 2 :  78238637.96537858
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Normalização : "</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">psi_tu</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]))</span>
@@ -8015,7 +8015,7 @@ dt =  3499.0  norm =  1.00004  &lt;E&gt; =  17.5446  &lt;x_(dt)&gt; =    7.305
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">opt_plot</span><span class="p">():</span>
@@ -8075,7 +8075,7 @@ dt =  3499.0  norm =  1.00004  &lt;E&gt; =  17.5446  &lt;x_(dt)&gt; =    7.305
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">time</span> Ut_05s = np.linalg.matrix_power(Ut_mat,int(0.5/dt) )
@@ -8091,8 +8091,8 @@ dt =  3499.0  norm =  1.00004  &lt;E&gt; =  17.5446  &lt;x_(dt)&gt; =    7.305
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>CPU times: total: 6min 37s
-Wall time: 1min 49s
+<pre>CPU times: total: 2min
+Wall time: 1min 15s
 </pre>
 </div>
 </div>
@@ -8114,7 +8114,7 @@ Wall time: 1min 49s
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">psi_t0</span> <span class="o">=</span> <span class="n">psi0</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">g_x0</span><span class="p">,</span><span class="n">g_k0</span><span class="p">,</span><span class="n">g_sig</span><span class="p">)</span>
@@ -8170,7 +8170,7 @@ dt =     6.0  norm =  1.00004  &lt;E&gt; =  17.5446  &lt;x_(dt)&gt; =    7.305
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
@@ -8230,7 +8230,7 @@ dt =     6.0  norm =  1.00004  &lt;E&gt; =  17.5446  &lt;x_(dt)&gt; =    7.305
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.utils</span> <span class="kn">import</span> <span class="n">check_random_state</span><span class="p">,</span> <span class="n">shuffle</span>
@@ -8265,7 +8265,7 @@ dt =     6.0  norm =  1.00004  &lt;E&gt; =  17.5446  &lt;x_(dt)&gt; =    7.305
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">converter</span> <span class="o">=</span> <span class="p">{</span>
@@ -8302,7 +8302,7 @@ dt =     6.0  norm =  1.00004  &lt;E&gt; =  17.5446  &lt;x_(dt)&gt; =    7.305
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">m1</span><span class="o">=</span><span class="p">[]</span>
@@ -8350,7 +8350,7 @@ dt =     6.0  norm =  1.00004  &lt;E&gt; =  17.5446  &lt;x_(dt)&gt; =    7.305
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">opt_plot</span><span class="p">():</span>
@@ -8408,9 +8408,9 @@ dt =     6.0  norm =  1.00004  &lt;E&gt; =  17.5446  &lt;x_(dt)&gt; =    7.305
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[49]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>[&lt;matplotlib.lines.Line2D at 0x283077331d0&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x21c95f5cda0&gt;]</pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -8437,7 +8437,7 @@ dt =     6.0  norm =  1.00004  &lt;E&gt; =  17.5446  &lt;x_(dt)&gt; =    7.305
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">function_set</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'add'</span><span class="p">,</span> <span class="s1">'sub'</span><span class="p">,</span> <span class="s1">'mul'</span><span class="p">,</span> <span class="s1">'div'</span><span class="p">,</span><span class="s1">'cos'</span><span class="p">,</span><span class="s1">'sin'</span><span class="p">,</span><span class="s1">'neg'</span><span class="p">,</span><span class="s1">'inv'</span><span class="p">]</span>
@@ -8466,31 +8466,31 @@ dt =     6.0  norm =  1.00004  &lt;E&gt; =  17.5446  &lt;x_(dt)&gt; =    7.305
 <pre>    |   Population Average    |             Best Individual              |
 ---- ------------------------- ------------------------------------------ ----------
  Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
-   0    15.94          8.42754       24         0.101256         0.141842      2.27m
-   1     8.38          1.41838       10        0.0282817        0.0287366      1.98m
-   2     4.25         0.913171       10        0.0275074        0.0357058      1.70m
-   3     2.38         0.458598       10        0.0262319        0.0471853      1.48m
-   4     2.34          69.5123       10        0.0262295        0.0472067      1.50m
-   5     4.42          1.11605       11        0.0181481        0.0271488      1.43m
-   6     6.21          1.40624       11        0.0183373        0.0356987      1.46m
-   7     6.89          1.00531       11        0.0196629        0.0237683      1.31m
-   8     7.20          0.86294       11        0.0185499        0.0337846      1.19m
-   9     7.36         0.927227       12        0.0193277        0.0303689      1.07m
-  10     7.54          1.14538       12        0.0202671        0.0219142     56.27s
-  11     7.90          1.22699        8        0.0258667         0.038024     48.56s
-  12     8.04          1.22625        8        0.0252462        0.0436084     44.87s
-  13     7.96          1.29076        8        0.0249788        0.0460152     38.28s
-  14     7.86          1.30819        8        0.0245602          0.04586     29.92s
-  15     8.06          1.22489        8        0.0247419        0.0481478     24.77s
-  16     7.99          1.55607        8        0.0246505          0.04897     18.30s
-  17     7.92          1.26517       11        0.0241093        0.0259531     13.04s
-  18     7.97          1.25025        8        0.0246505          0.04897      6.40s
+   0    15.94          8.42754       24         0.101256         0.141842      2.44m
+   1     8.38          1.41838       10        0.0282817        0.0287366      2.23m
+   2     4.25         0.913171       10        0.0275074        0.0357058      1.91m
+   3     2.38         0.458598       10        0.0262319        0.0471853      1.68m
+   4     2.34          69.5123       10        0.0262295        0.0472067      1.63m
+   5     4.42          1.11605       11        0.0181481        0.0271488      1.57m
+   6     6.21          1.40624       11        0.0183373        0.0356987      1.49m
+   7     6.89          1.00531       11        0.0196629        0.0237683      1.53m
+   8     7.20          0.86294       11        0.0185499        0.0337846      1.25m
+   9     7.36         0.927227       12        0.0193277        0.0303689      1.22m
+  10     7.54          1.14538       12        0.0202671        0.0219142      1.07m
+  11     7.90          1.22699        8        0.0258667         0.038024     56.28s
+  12     8.04          1.22625        8        0.0252462        0.0436084      1.06m
+  13     7.96          1.29076        8        0.0249788        0.0460152      1.05m
+  14     7.86          1.30819        8        0.0245602          0.04586     55.62s
+  15     8.06          1.22489        8        0.0247419        0.0481478     38.25s
+  16     7.99          1.55607        8        0.0246505          0.04897     22.28s
+  17     7.92          1.26517       11        0.0241093        0.0259531     17.71s
+  18     7.97          1.25025        8        0.0246505          0.04897     11.49s
   19     8.00           1.2177       10         0.023813        0.0384339      0.00s
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[47]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-1 {
   /* Definition of color scheme common for light and dark mode */
@@ -8917,7 +8917,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'R2:'</span><span class="p">,</span><span class="n">est_gp</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">xix</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span><span class="n">y</span><span class="p">))</span>
@@ -8957,7 +8957,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">y1</span>
@@ -8971,7 +8971,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[55]:</div>
 <div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
 $\displaystyle \frac{0.333}{0.696 X_{0}^{2} + 0.812}$
 </div>
@@ -9005,7 +9005,7 @@ $\displaystyle \frac{0.333}{0.696 X_{0}^{2} + 0.812}$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -9084,7 +9084,7 @@ $\displaystyle \frac{0.333}{0.696 X_{0}^{2} + 0.812}$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">est_gp</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span><span class="n">s1</span><span class="p">)</span>
@@ -9103,31 +9103,31 @@ $\displaystyle \frac{0.333}{0.696 X_{0}^{2} + 0.812}$
 <pre>    |   Population Average    |             Best Individual              |
 ---- ------------------------- ------------------------------------------ ----------
  Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
-   0    15.94          10.9162        6        0.0305686        0.0286007      2.38m
-   1     8.25          1.36407        9        0.0238001        0.0246281      2.08m
-   2     5.03         0.916274        9        0.0248264        0.0153917      1.77m
-   3     2.76         0.458664        7        0.0265144         0.031241      1.59m
-   4     2.38          16.2677        7         0.026512        0.0312625      1.39m
-   5     5.04         0.628504        6        0.0142702           0.0251      1.40m
-   6     6.00          1.07399        6        0.0145615        0.0224778      1.38m
-   7     6.08         0.645816        6        0.0137287        0.0299735      1.28m
+   0    15.94          10.9162        6        0.0305686        0.0286007      2.70m
+   1     8.25          1.36407        9        0.0238001        0.0246281      2.65m
+   2     5.03         0.916274        9        0.0248264        0.0153917      2.21m
+   3     2.76         0.458664        7        0.0265144         0.031241      2.49m
+   4     2.38          16.2677        7         0.026512        0.0312625      1.71m
+   5     5.04         0.628504        6        0.0142702           0.0251      1.70m
+   6     6.00          1.07399        6        0.0145615        0.0224778      1.70m
+   7     6.08         0.645816        6        0.0137287        0.0299735      1.32m
    8     6.07         0.686379        6         0.013608        0.0310599      1.25m
-   9     6.19         0.767054        6        0.0124938        0.0410876      1.14m
-  10     6.10         0.799589        6        0.0129802        0.0367098     55.79s
-  11     6.08         0.641764        6         0.013121        0.0354423     52.00s
-  12     6.19         0.677095        6        0.0122761        0.0430471     45.62s
-  13     6.17         0.895997        6         0.012991        0.0366123     39.56s
-  14     6.06         0.736398        6        0.0132391          0.03438     31.17s
-  15     6.18         0.696137        6        0.0133269        0.0335893     24.14s
-  16     6.17         0.844118        6        0.0132413        0.0343599     19.47s
-  17     6.09         0.700994        6        0.0128263        0.0380947     11.32s
-  18     6.16         0.612862        6        0.0130871        0.0357479      5.95s
+   9     6.19         0.767054        6        0.0124938        0.0410876      1.33m
+  10     6.10         0.799589        6        0.0129802        0.0367098      1.44m
+  11     6.08         0.641764        6         0.013121        0.0354423      1.09m
+  12     6.19         0.677095        6        0.0122761        0.0430471     58.81s
+  13     6.17         0.895997        6         0.012991        0.0366123     38.97s
+  14     6.06         0.736398        6        0.0132391          0.03438     32.38s
+  15     6.18         0.696137        6        0.0133269        0.0335893     26.38s
+  16     6.17         0.844118        6        0.0132413        0.0343599     20.57s
+  17     6.09         0.700994        6        0.0128263        0.0380947     13.77s
+  18     6.16         0.612862        6        0.0130871        0.0357479      6.65s
   19     6.17         0.633526        6        0.0125276        0.0407834      0.00s
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[56]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[60]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-2 {
   /* Definition of color scheme common for light and dark mode */
@@ -9554,7 +9554,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'R2:'</span><span class="p">,</span><span class="n">est_gp</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span><span class="n">s1</span><span class="p">))</span>
@@ -9594,7 +9594,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [64]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">y2</span>
@@ -9608,7 +9608,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[60]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[64]:</div>
 <div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
 $\displaystyle - 0.517 X_{0} + \sin{\left(X_{0} \right)}$
 </div>
@@ -9631,7 +9631,7 @@ $\displaystyle - 0.517 X_{0} + \sin{\left(X_{0} \right)}$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [66]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -9687,7 +9687,7 @@ E[7] =  177.6529
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [64]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [68]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">opt_plot</span><span class="p">():</span>
@@ -9759,7 +9759,7 @@ E[7] =  177.6529
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [70]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">l_count</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">)</span>
@@ -9788,7 +9788,7 @@ E[7] =  177.6529
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [72]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">function_set</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'add'</span><span class="p">,</span> <span class="s1">'sub'</span><span class="p">,</span> <span class="s1">'mul'</span><span class="p">,</span> <span class="s1">'div'</span><span class="p">,</span><span class="s1">'cos'</span><span class="p">,</span><span class="s1">'sin'</span><span class="p">,</span><span class="s1">'neg'</span><span class="p">,</span><span class="s1">'inv'</span><span class="p">]</span>
@@ -9817,12 +9817,12 @@ E[7] =  177.6529
 <pre>    |   Population Average    |             Best Individual              |
 ---- ------------------------- ------------------------------------------ ----------
  Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
-   0    10.86      1.23511e+07       14                0                0      1.73m
+   0    10.86      1.23511e+07       14                0                0      2.06m
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[68]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[72]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-3 {
   /* Definition of color scheme common for light and dark mode */
@@ -10249,7 +10249,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [70]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [74]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">next_e</span> <span class="o">=</span> <span class="n">sympify</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">est_gp</span><span class="o">.</span><span class="n">_program</span><span class="p">),</span> <span class="nb">locals</span><span class="o">=</span><span class="n">converter</span><span class="p">)</span>
@@ -10275,7 +10275,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [72]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [76]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">y3</span>
@@ -10289,7 +10289,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[72]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[76]:</div>
 <div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
 $\displaystyle - \frac{0.362 X_{1}}{X_{0} \left(\cos{\left(X_{2} \right)} - 0.198669330795061\right)}$
 </div>
@@ -10312,7 +10312,7 @@ $\displaystyle - \frac{0.362 X_{1}}{X_{0} \left(\cos{\left(X_{2} \right)} - 0.19
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [74]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [78]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -10399,7 +10399,7 @@ $\displaystyle - \frac{0.362 X_{1}}{X_{0} \left(\cos{\left(X_{2} \right)} - 0.19
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [76]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [80]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">val_esp</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mf">7.17</span><span class="p">,</span><span class="o">-</span><span class="mf">4.344</span><span class="p">,</span><span class="o">-</span><span class="mf">1.555</span><span class="p">,</span><span class="mf">0.8002</span><span class="p">,</span><span class="mf">2.905</span><span class="p">,</span><span class="mf">5.095</span> <span class="p">,</span><span class="mf">7.305</span><span class="p">])</span>
@@ -10442,7 +10442,7 @@ $\displaystyle - \frac{0.362 X_{1}}{X_{0} \left(\cos{\left(X_{2} \right)} - 0.19
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [78]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [82]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">function_set</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'add'</span><span class="p">,</span> <span class="s1">'sub'</span><span class="p">,</span> <span class="s1">'mul'</span><span class="p">,</span> <span class="s1">'div'</span><span class="p">,</span><span class="s1">'cos'</span><span class="p">,</span><span class="s1">'sin'</span><span class="p">,</span><span class="s1">'neg'</span><span class="p">,</span><span class="s1">'inv'</span><span class="p">]</span>
@@ -10471,13 +10471,13 @@ $\displaystyle - \frac{0.362 X_{1}}{X_{0} \left(\cos{\left(X_{2} \right)} - 0.19
 <pre>    |   Population Average    |             Best Individual              |
 ---- ------------------------- ------------------------------------------ ----------
  Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
-   0    15.94          24.2581        9        0.0150923         0.125521      2.22m
-   1     9.25          3.10342       29         0.001741         0.390678      1.89m
+   0    15.94          24.2581        9        0.0150923         0.125521      2.32m
+   1     9.25          3.10342       29         0.001741         0.390678      2.51m
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[78]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[82]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-4 {
   /* Definition of color scheme common for light and dark mode */
@@ -10904,7 +10904,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [80]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [84]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'R2:'</span><span class="p">,</span><span class="n">est_gp</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">x_arr</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="n">y_arr</span><span class="p">))</span>
@@ -10944,7 +10944,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [82]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [86]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">y2_arr</span>
@@ -10958,7 +10958,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[82]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[86]:</div>
 <div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
 $\displaystyle \sin{\left(\frac{\cos{\left(\sin{\left(X_{0} - 0.773 \right)} + 0.795601620036366 \right)} \cos{\left(\frac{1}{\cos{\left(X_{0} \right)}} \right)}}{0.130625639531083 - 2 X_{0}^{3}} \right)}$
 </div>
@@ -10981,7 +10981,7 @@ $\displaystyle \sin{\left(\frac{\cos{\left(\sin{\left(X_{0} - 0.773 \right)} + 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [84]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [88]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -11028,7 +11028,7 @@ $\displaystyle \sin{\left(\frac{\cos{\left(\sin{\left(X_{0} - 0.773 \right)} + 0
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[84]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[88]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -11111,7 +11111,7 @@ $\displaystyle \sin{\left(\frac{\cos{\left(\sin{\left(X_{0} - 0.773 \right)} + 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [86]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [90]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -11145,7 +11145,7 @@ $\displaystyle \sin{\left(\frac{\cos{\left(\sin{\left(X_{0} - 0.773 \right)} + 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [88]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [92]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">desvf</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
@@ -11183,7 +11183,7 @@ $\displaystyle \sin{\left(\frac{\cos{\left(\sin{\left(X_{0} - 0.773 \right)} + 0
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[88]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[92]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -11282,7 +11282,7 @@ $\displaystyle \sin{\left(\frac{\cos{\left(\sin{\left(X_{0} - 0.773 \right)} + 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [90]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [94]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">array</span> <span class="kn">import</span> <span class="n">array</span>
@@ -11311,31 +11311,31 @@ $\displaystyle \sin{\left(\frac{\cos{\left(\sin{\left(X_{0} - 0.773 \right)} + 0
 <pre>    |   Population Average    |             Best Individual              |
 ---- ------------------------- ------------------------------------------ ----------
  Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
-   0    14.12          17.3358       61          4.58152          2.20469      2.07m
-   1    13.19          12.2287       63          2.01855          16.5301      1.93m
-   2    22.91          12.5299       68          1.48236          19.5784      2.29m
-   3    45.90          11.1265       67          1.35883          16.5595      2.58m
-   4    57.10          8.42914       74           1.2534          16.1118      2.76m
-   5    56.64          8.65533      103         0.940835          17.0272      2.61m
-   6    55.98          8.42966       74         0.897443          18.0636      2.44m
-   7    55.51          8.75305       89         0.915222          18.4083      2.26m
-   8    54.16          8.32359       57          0.83206          5.84937      2.06m
-   9    54.13          8.69014       59         0.601793          5.16499      1.82m
-  10    51.85           8.2424       59         0.601793          5.16499      1.60m
-  11    50.01          8.74759       70         0.566704          2.36483      1.35m
-  12    48.89          8.13448       63         0.433342          38.7046      1.40m
-  13    51.54          7.87202       75         0.439702           1.6471      1.07m
-  14    55.80          7.78783       74         0.409549           1.6472     56.20s
-  15    62.10          7.10821       63         0.414798          1.55232     44.58s
-  16    65.83           8.2369       79         0.343407          1.43067     33.62s
-  17    66.11          7.72361       78         0.387547          1.80321     23.04s
-  18    64.58          7.55171       78         0.274171          1.35523     11.62s
+   0    14.12          17.3358       61          4.58152          2.20469      2.61m
+   1    13.19          12.2287       63          2.01855          16.5301      2.67m
+   2    22.91          12.5299       68          1.48236          19.5784      2.70m
+   3    45.90          11.1265       67          1.35883          16.5595      2.79m
+   4    57.10          8.42914       74           1.2534          16.1118      2.86m
+   5    56.64          8.65533      103         0.940835          17.0272      2.81m
+   6    55.98          8.42966       74         0.897443          18.0636      2.33m
+   7    55.51          8.75305       89         0.915222          18.4083      2.30m
+   8    54.16          8.32359       57          0.83206          5.84937      2.04m
+   9    54.13          8.69014       59         0.601793          5.16499      1.84m
+  10    51.85           8.2424       59         0.601793          5.16499      1.61m
+  11    50.01          8.74759       70         0.566704          2.36483      1.44m
+  12    48.89          8.13448       63         0.433342          38.7046      1.21m
+  13    51.54          7.87202       75         0.439702           1.6471      1.05m
+  14    55.80          7.78783       74         0.409549           1.6472     55.09s
+  15    62.10          7.10821       63         0.414798          1.55232     47.78s
+  16    65.83           8.2369       79         0.343407          1.43067     45.28s
+  17    66.11          7.72361       78         0.387547          1.80321     23.63s
+  18    64.58          7.55171       78         0.274171          1.35523     13.55s
   19    63.97          7.15509       77         0.328465            1.395      0.00s
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[90]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[94]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-5 {
   /* Definition of color scheme common for light and dark mode */
@@ -11762,7 +11762,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [92]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [96]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'R2:'</span><span class="p">,</span><span class="n">est_gp</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">desvf</span><span class="p">,</span><span class="n">l</span><span class="p">))</span>
@@ -11802,7 +11802,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [94]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [98]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">y4</span><span class="p">)</span>
@@ -11840,7 +11840,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [96]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [100]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">deltax</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">2.1</span><span class="p">,</span><span class="mf">2.83</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
@@ -11874,7 +11874,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [97]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [101]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">est_gp</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">delta_dp</span><span class="p">,</span><span class="n">mult</span><span class="p">)</span>
@@ -11893,12 +11893,12 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <pre>    |   Population Average    |             Best Individual              |
 ---- ------------------------- ------------------------------------------ ----------
  Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
-   0    14.12          9.75688        5                0                0      2.11m
+   0    14.12          9.75688        5                0                0      2.60m
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[97]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[101]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-6 {
   /* Definition of color scheme common for light and dark mode */
@@ -12325,7 +12325,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [99]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [103]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'R2:'</span><span class="p">,</span><span class="n">est_gp</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">delta_dp</span><span class="p">,</span><span class="n">mult</span><span class="p">))</span>
@@ -12365,7 +12365,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [101]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [105]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">y5</span><span class="p">)</span>
@@ -12403,7 +12403,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [171]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [107]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'As Equações Sugeridas:'</span><span class="p">)</span>
@@ -12453,143 +12453,12 @@ VI - y5(X0,X1) =  X0*X1
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=06ade7fa-9404-4af3-8b3a-aad8d3767d6d">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=725aae4e-edf2-4611-ae7f-663ec2636fc7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [160]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">y2</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[160]:</div>
-<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
-$\displaystyle - 0.517 X_{0} + \sin{\left(X_{0} \right)}$
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=462d4340-7e68-4e9d-abb8-021365fa622d">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [162]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">y3</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[162]:</div>
-<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
-$\displaystyle - \frac{0.362 X_{1}}{X_{0} \left(\cos{\left(X_{2} \right)} - 0.198669330795061\right)}$
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1edc723b-2230-4f93-9efb-5e97f8cda6ba">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [164]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">y4</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[164]:</div>
-<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
-$\displaystyle - \frac{X_{0}}{X_{1}} + X_{1} + \left(\sin{\left(X_{1} \right)} + \frac{3 X_{1}}{X_{0}}\right) \sin{\left(X_{1} \right)} + \frac{\sin{\left(\frac{X_{0}}{X_{1}} - X_{1} + 0.306590365235784 - \frac{\sin{\left(\frac{0.094}{X_{1}} \right)}}{X_{1} + 0.041} + \frac{1}{0.046 - \frac{0.094}{X_{1}}} \right)}}{X_{1} + 0.041} - \frac{1}{0.046 - \frac{0.094}{X_{1}}}$
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3c9e8d33-95b8-4615-b2b5-20a5d7d9efc0">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [166]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">y5</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[166]:</div>
-<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
-$\displaystyle X_{0} X_{1}$
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1f5d99fc-8ae3-4dfa-9255-69d912f0c034">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [201]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">X0</span><span class="o">=</span><span class="mi">1</span>
-<span class="n">y2_arr</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[201]:</div>
-<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
-$\displaystyle \sin{\left(\frac{\cos{\left(\sin{\left(X_{0} - 0.773 \right)} + 0.795601620036366 \right)} \cos{\left(\frac{1}{\cos{\left(X_{0} \right)}} \right)}}{0.130625639531083 - 2 X_{0}^{3}} \right)}$
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=56cd3805-8872-401d-a756-20615c1261ba">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [203]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [108]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'I - y1(X0) ='</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">" "</span><span class="p">)</span> 
@@ -12610,22 +12479,22 @@ $\displaystyle \sin{\left(\frac{\cos{\left(\sin{\left(X_{0} - 0.773 \right)} + 0
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[203]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[108]:</div>
 <div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
 $\displaystyle \frac{0.333}{0.696 X_{0}^{2} + 0.812}$
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7596faa7-93db-4e30-bad6-de9910bf65c9">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=06ade7fa-9404-4af3-8b3a-aad8d3767d6d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [207]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [109]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">y1</span><span class="o">.</span><span class="n">dtype</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">y2</span>
 </pre></div>
 </div>
 </div>
@@ -12635,16 +12504,143 @@ $\displaystyle \frac{0.333}{0.696 X_{0}^{2} + 0.812}$
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">AttributeError</span>                            Traceback (most recent call last)
-Cell <span class="ansi-green-intense-fg ansi-bold">In[207], line 1</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> y1<span style="color: rgb(98,98,98)">.</span>dtype
-
-<span class="ansi-red-intense-fg ansi-bold">AttributeError</span>: 'Mul' object has no attribute 'dtype'</pre>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[109]:</div>
+<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
+$\displaystyle - 0.517 X_{0} + \sin{\left(X_{0} \right)}$
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=462d4340-7e68-4e9d-abb8-021365fa622d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [110]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">y3</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[110]:</div>
+<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
+$\displaystyle - \frac{0.362 X_{1}}{X_{0} \left(\cos{\left(X_{2} \right)} - 0.198669330795061\right)}$
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1edc723b-2230-4f93-9efb-5e97f8cda6ba">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [111]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">y4</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[111]:</div>
+<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
+$\displaystyle - \frac{X_{0}}{X_{1}} + X_{1} + \left(\sin{\left(X_{1} \right)} + \frac{3 X_{1}}{X_{0}}\right) \sin{\left(X_{1} \right)} + \frac{\sin{\left(\frac{X_{0}}{X_{1}} - X_{1} + 0.306590365235784 - \frac{\sin{\left(\frac{0.094}{X_{1}} \right)}}{X_{1} + 0.041} + \frac{1}{0.046 - \frac{0.094}{X_{1}}} \right)}}{X_{1} + 0.041} - \frac{1}{0.046 - \frac{0.094}{X_{1}}}$
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3c9e8d33-95b8-4615-b2b5-20a5d7d9efc0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [112]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">y5</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[112]:</div>
+<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
+$\displaystyle X_{0} X_{1}$
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1f5d99fc-8ae3-4dfa-9255-69d912f0c034">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [113]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">X0</span><span class="o">=</span><span class="mi">1</span>
+<span class="n">y2_arr</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[113]:</div>
+<div class="jp-RenderedLatex jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/latex" tabindex="0">
+$\displaystyle \sin{\left(\frac{\cos{\left(\sin{\left(X_{0} - 0.773 \right)} + 0.795601620036366 \right)} \cos{\left(\frac{1}{\cos{\left(X_{0} \right)}} \right)}}{0.130625639531083 - 2 X_{0}^{3}} \right)}$
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=56cd3805-8872-401d-a756-20615c1261ba">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=7596faa7-93db-4e30-bad6-de9910bf65c9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span> 
+</pre></div>
 </div>
 </div>
 </div>
